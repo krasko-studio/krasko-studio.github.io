@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Krasko Studio · сайты на заказ</title>
+  <meta name="description" content="Делаю сайты на заказ, редизайн и правки. Напишите в Telegram.">
+  <meta name="theme-color" content="#f4f2ee">
+  <!-- Иконка вкладки: чёрный квадрат с оранжевой каплей, как в логотипе -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect x='2' y='2' width='44' height='44' rx='11' fill='%23141414'/%3E%3Cpath transform='translate(11 6) scale(0.6)' d='M22 4 C22 4 6 26 6 39 a16 16 0 0 0 32 0 C38 26 22 4 22 4 Z' fill='%23ff6a1f'/%3E%3Cellipse transform='translate(11 6) scale(0.6) rotate(-20 15.5 40)' cx='15.5' cy='40' rx='3.2' ry='5.5' fill='%23111'/%3E%3C/svg%3E">
+  <!-- Превью ссылки в Telegram и других мессенджерах -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Krasko Studio">
+  <meta property="og:title" content="Krasko Studio · сайты на заказ">
+  <meta property="og:description" content="Делаю сайты на заказ, редизайн и правки. Напишите в Telegram.">
+  <!-- Шрифт заголовка грузим заранее, чтобы первый экран сразу был в нужном шрифте -->
+  <link rel="preload" href="fonts/unbounded-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="top">
+    <div class="wrap top__inner">
+      <!-- Логотип: «Krask» + капля краски вместо «o», снизу STUDIO -->
+      <a class="logo" href="#" aria-label="Krasko Studio, наверх">
+        <span class="logo__word" aria-hidden="true">Krask<svg viewBox="0 0 44 60"><path class="logo__drop" d="M22 4 C22 4 6 26 6 39 a16 16 0 0 0 32 0 C38 26 22 4 22 4 Z"/><ellipse class="logo__shine" cx="15.5" cy="40" rx="3.2" ry="5.5" transform="rotate(-20 15.5 40)"/></svg></span>
+        <span class="logo__sub" aria-hidden="true">Studio</span>
+      </a>
+      <nav class="top__nav">
+        <a href="#services">Услуги</a>
+        <a href="#works">Работы</a>
+        <a href="#process">Как работаю</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="btn" href="https://t.me/keksiiiik" target="_blank" rel="noopener">Telegram</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Первый экран -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div>
+          <span class="status"><span class="status__dot"></span>Сейчас беру заказы</span>
+
+          <h1>Делаю сайты, <span class="mark">которые</span> не&nbsp;похожи на&nbsp;шаблон</h1>
+
+          <p class="hero__text">
+            Новые сайты для бизнеса, редизайн старых и правки на готовых.
+            Напишите, что нужно, и я скажу, сколько это займёт и сколько
+            будет стоить.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn" href="https://t.me/keksiiiik" target="_blank" rel="noopener">Написать в Telegram →</a>
+            <a class="btn btn--plain" href="#works">Посмотреть работы</a>
+          </div>
+        </div>
+
+        <div class="compare" aria-hidden="true">
+          <span class="sticker sticker--old">было</span>
+          <div class="window window--old">
+            <div class="window__bar"><i></i><i></i><i></i></div>
+            <div class="window__body">
+              <div class="bar bar--title"></div>
+              <div class="bar"></div>
+              <div class="bar bar--short"></div>
+              <div class="bar bar--box"></div>
+              <div class="bar bar--short"></div>
+            </div>
+          </div>
+
+          <div class="window window--new">
+            <div class="window__bar"><i></i><i></i><i></i></div>
+            <div class="window__body">
+              <div class="mini-title">Ваш<br>бизнес*</div>
+              <div class="mini-row">
+                <div class="mini-circle"></div>
+                <div class="mini-lines"><span></span><span></span><span></span></div>
+              </div>
+              <div class="mini-btn">Связаться</div>
+            </div>
+          </div>
+          <span class="sticker sticker--new">стало</span>
+        </div>
+      </div>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker__track">
+          <span>сайты на заказ</span><span>редизайн</span><span>правки</span><span>Красько — значит красиво</span><span>сайты на заказ</span><span>редизайн</span><span>правки</span><span>Красько — значит красиво</span>
+          <span>сайты на заказ</span><span>редизайн</span><span>правки</span><span>Красько — значит красиво</span><span>сайты на заказ</span><span>редизайн</span><span>правки</span><span>Красько — значит красиво</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section__head">
+          <span class="label">01 / услуги</span>
+        </div>
+        <h2>Чем могу помочь</h2>
+
+        <div class="services">
+          <article class="card service">
+            <span class="service__num">01</span>
+            <h3>Сайт с&nbsp;нуля</h3>
+            <p>Для кофейни, салона, мастера или любого другого дела. Продумаю, что должно быть на&nbsp;сайте, сделаю дизайн и&nbsp;соберу сайт, который удобно открывать с&nbsp;телефона.</p>
+            <ul class="tags"><li>дизайн</li><li>вёрстка</li><li>под телефон</li></ul>
+          </article>
+
+          <article class="card service service--accent">
+            <span class="service__num">02</span>
+            <h3>Редизайн</h3>
+            <p>Сайт есть, но&nbsp;выглядит устаревшим или в&nbsp;нём сложно разобраться. Сделаю новый вид и&nbsp;оставлю то, что уже работает.</p>
+            <ul class="tags"><li>новый вид</li><li>понятнее</li><li>под телефон</li></ul>
+          </article>
+
+          <article class="card service">
+            <span class="service__num">03</span>
+            <h3>Правки</h3>
+            <p>Поменять текст, цены или фото, добавить блок или кнопку. Небольшие задачи, которые давно хотелось сделать, но&nbsp;руки не&nbsp;доходили.</p>
+            <ul class="tags"><li>тексты</li><li>блоки</li><li>мелочи</li></ul>
+          </article>
+        </div>
+
+        <p class="services__note">
+          <span class="sticker">цена</span>
+          Зависит от задачи. Напишите, что нужно, и&nbsp;я назову точную цену до&nbsp;начала работы.
+        </p>
+      </div>
+    </section>
+
+    <!-- Работы -->
+    <section class="section" id="works">
+      <div class="wrap">
+        <div class="section__head">
+          <span class="label">02 / работы</span>
+        </div>
+        <h2>Работы</h2>
+        <p class="works__note muted">
+          Концепты я делаю сам для примера, без заказчика.
+          Так видно, как я подхожу к&nbsp;разным темам.
+        </p>
+
+        <div class="works">
+          <article class="card work">
+            <div class="work__screen work__screen--tool" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="work__info">
+              <span class="label">инструмент · для себя</span>
+              <h3>Подбор дизайна</h3>
+              <p>Мой рабочий инструмент. Подбираю цвета, шрифты и&nbsp;стиль сайта и&nbsp;сразу вижу, как это выглядит. Внутри лента трендов веб-дизайна.</p>
+            </div>
+            <span class="sticker work__sticker">скоро скриншоты</span>
+          </article>
+
+          <article class="card work">
+            <div class="work__screen work__screen--coffee" aria-hidden="true">
+              <span></span>
+            </div>
+            <div class="work__info">
+              <span class="label">концепт · кофейня</span>
+              <h3>Кофейня</h3>
+              <p>Сайт для небольшой кофейни.</p>
+            </div>
+            <span class="sticker work__sticker">скоро</span>
+          </article>
+
+          <article class="card work">
+            <div class="work__screen work__screen--dental" aria-hidden="true">
+              <span></span><span></span>
+            </div>
+            <div class="work__info">
+              <span class="label">концепт · стоматология</span>
+              <h3>Стоматология</h3>
+              <p>Сайт для стоматологической клиники.</p>
+            </div>
+            <span class="sticker work__sticker">скоро</span>
+          </article>
+
+          <article class="card work">
+            <div class="work__screen work__screen--repair" aria-hidden="true"></div>
+            <div class="work__info">
+              <span class="label">концепт · ремонт</span>
+              <h3>Ремонт квартир</h3>
+              <p>Сайт для бригады, которая делает ремонт.</p>
+            </div>
+            <span class="sticker work__sticker">скоро</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Как я работаю -->
+    <section class="section" id="process">
+      <div class="wrap">
+        <div class="section__head">
+          <span class="label">03 / как я работаю</span>
+        </div>
+        <h2>Как всё проходит</h2>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">1</span>
+            <h3>Вы пишете</h3>
+            <p>В Telegram или на почту. Пары слов о&nbsp;вашем деле и&nbsp;задаче достаточно.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">2</span>
+            <h3>Обсуждаем</h3>
+            <p>Задаю вопросы, называю цену и&nbsp;срок. Работу начинаю, только когда всё понятно.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">3</span>
+            <h3>Дизайн</h3>
+            <p>Показываю, как будет выглядеть сайт. Обсуждаем и&nbsp;правим.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">4</span>
+            <h3>Сборка</h3>
+            <p>Делаю сайт и&nbsp;проверяю, как он выглядит на&nbsp;компьютере и&nbsp;телефоне.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">5</span>
+            <h3>Запуск</h3>
+            <p>Сайт выходит в&nbsp;интернет. Если потом нужно что-то поменять, пишите.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="section contact" id="contacts">
+      <div class="wrap">
+        <div class="section__head">
+          <span class="label">04 / контакты</span>
+        </div>
+        <h2>Напишите мне</h2>
+        <p class="contact__text">
+          Расскажите в&nbsp;паре слов, что у&nbsp;вас за&nbsp;дело и&nbsp;что нужно сделать.
+          Дальше обсудим детали.
+        </p>
+
+        <div class="contact__links">
+          <!-- t.me на телефоне открывает приложение Telegram, на компьютере предлагает открыть его -->
+          <a class="contact__link contact__link--tg" href="https://t.me/keksiiiik" target="_blank" rel="noopener">
+            <span class="label">Telegram</span>
+            <span class="contact__title">Написать в&nbsp;Telegram</span>
+            <span class="contact__arrow" aria-hidden="true">→</span>
+          </a>
+
+          <!-- mailto открывает почтовое приложение с готовым адресом -->
+          <a class="contact__link contact__link--mail" href="mailto:keks.tg@mail.ru">
+            <span class="label">Почта</span>
+            <span class="contact__title">Написать на&nbsp;почту</span>
+            <span class="contact__arrow" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__brand">
+        <span class="logo logo--footer" role="img" aria-label="Krasko Studio">
+          <span class="logo__word" aria-hidden="true">Krask<svg viewBox="0 0 44 60"><path class="logo__drop" d="M22 4 C22 4 6 26 6 39 a16 16 0 0 0 32 0 C38 26 22 4 22 4 Z"/><ellipse class="logo__shine" cx="15.5" cy="40" rx="3.2" ry="5.5" transform="rotate(-20 15.5 40)"/></svg></span>
+          <span class="logo__sub" aria-hidden="true">Studio</span>
+        </span>
+        <p class="footer__slogan">Красько&nbsp;— значит красиво</p>
+      </div>
+      <div class="footer__meta">
+        <span>© 2026</span>
+        <a href="#">Наверх ↑</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
